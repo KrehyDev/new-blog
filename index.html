@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/solarized.css">
+		<link rel="stylesheet" href="css/animation.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,12 +17,14 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+				<section><p>Use arrows to move around the website</p></section>
 				<section data-auto-animate>
-					<p>Hi</p>
+					<div data-id="box" style="position: relative; left: 150px; width: 500px; height: 130px; background: #bada55;"><p style="color: orange; font-size: 100px;"><b>ABOUT</b></div>
+					<div data-id="box" style="position: relative; rotate: -15deg; left: 600px; top: -80px; width: 200px; height: 130px; background: #ffffff;"><p style="color: orange; font-size: 100px;"><b>ME</b></div>
 				</section>
-				<section data-auto-animate>
-					<p class="">Hi</p>
-					<p>I'm like to see you here!</p>
+				<section data-auto-animate data-auto-animate-unmatched="true">
+					<div data-id="box" style="position: relative; top: -228px; width: 200px; height: 52px; background: #bada55;"><p style="color: orange; font-size: 40px;"><b>ABOUT</b></div>
+					<div data-id="box" style="position: relative; top: -300px; left: 200px; width: 75px; height: 52px; background: #ffffff;"><p style="color: orange; font-size: 40px;"><b>ME</b></div>
 				</section>
 			</div>
 		</div>

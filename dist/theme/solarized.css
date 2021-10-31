@@ -16,7 +16,7 @@ html * {
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #fdf6e3;
+  --r-background-color: rgb(27, 39, 51);
   --r-main-font: Lato, sans-serif;
   --r-main-font-size: 40px;
   --r-main-color: #657b83;
