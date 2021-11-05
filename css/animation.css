@@ -34,3 +34,29 @@
     display: inline-block;
     line-height: 1em;
   }
+  .icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 75px;
+    margin-top: 45px;   
+}
+.contact-info {
+  position:relative; 
+  top: -35px;
+  margin-left: 15px;
+  font-size: 25px;
+}
+.contact {
+  text-align: left;
+}
+a {
+  color: orange;
+  font-weight: bold;
+  text-decoration: none;
+}
+  
+  a:hover,
+  a:active {
+    color: #bada55;
+  }
+  

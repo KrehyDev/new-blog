@@ -303,13 +303,13 @@ html * {
  * LINKS
  *********************************************/
 .reveal a {
-  color: var(--r-link-color);
+  color: orange;
   text-decoration: none;
   transition: color 0.15s ease;
 }
 
 .reveal a:hover {
-  color: var(--r-link-color-hover);
+  color: #bada55;
   text-shadow: none;
   border: none;
 }
